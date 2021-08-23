@@ -1,0 +1,314 @@
+body{
+    font-family: cursive;
+}
+
+#bg{
+    background-image: url('images/mainbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+#title{
+    background-color: #c43d3d;
+    margin-top: -1%;;
+}
+
+#page{
+    font-size: 24px;
+}
+
+#titlefont{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#register{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+    padding: 8%;
+    width:45%;
+    height: 200%;   
+}
+
+#tagline{
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: -15%;
+    color: rgb(224, 214, 123);
+}
+
+#orderbtn{
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 8%;
+    width: 60%;
+    margin-bottom: 10%;
+    background-color: rgb(224, 214, 123);
+}
+
+#opt{
+    font-family:cursive;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(224, 214, 123);
+}
+
+#addbtn{
+    font-family:cursive;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(224, 214, 123);
+    margin-top: 8%;
+    width: 60%;
+    margin-bottom: -5%;
+}
+
+.signuplink{
+    text-decoration: none;
+    color: rgb(209, 75, 75);
+}
+
+/* -------------------------------------------------------- */
+/* user signup */
+/* restaurant signup */
+
+#title{
+    background-color: #c43d3d;
+    margin-top: -1%;;
+}
+
+#titlefont{
+    color: rgb(224, 214, 123);
+    font-family:cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#signup_Heading{
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: rgb(224, 214, 123);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#usersignup{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 1%;
+    width:35%;
+    height: 200%;   
+}
+
+#user_Inputs{
+    width: 70%;
+    margin: 0% 15%;
+    padding: 0.5%;    
+}
+
+#user_inputs_Labels{
+    color: rgb(224, 214, 123);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: rgb(214, 210, 210) !important;
+}
+
+#login_signup_Button{
+    background-color: rgb(224, 214, 123);
+    margin-top: 2%;
+    margin-left:16%;
+    width: 80px;
+    height: 30px;
+    color: #c43d3d;
+    font-size: 10px;
+    padding: 0px;
+    border-color: transparent;
+}
+
+#login_signup_Link{
+    color: white;
+    width: 150px;
+    margin-top: 5px;
+    font-size: 10px;
+    margin-left: -10px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#login_signup_Link :hover{
+    color: white;
+}
+
+#link{
+    color: white;
+}
+
+#message{
+    height: 30px;
+    width: 70%;
+    margin-left: 15%;
+    color:white;
+    background-color: rgba(151, 151, 155, 0.678);
+    margin-top: 1%;
+    font-size: 10px;
+    padding: 0px;
+}
+
+/* -------------------------------------------------------------- */
+/* user login */
+/* restaurant login */
+
+#login_Heading{
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: rgba(255, 255, 255, 0.5);
+    color: rgb(224, 214, 123);
+    font-weight: bolder;
+    text-align: center;
+}
+
+#userLogin{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 2%;
+    width:35%;
+    height: 20%;    
+}
+
+#login_Button{
+        background-color: rgb(224, 214, 123);
+        margin-top: 2%;
+        margin-left:1;
+        width: 80px;
+        height: 30px;
+        color: #c43d3d;
+        font-size: 10px;
+        padding: 0px;        
+    }
+    
+#login_Link{
+        color: white;
+        width: 150px;
+        margin-top: 5px;
+        font-size: 8px;
+        margin-left: -10px;
+        border-color: transparent;
+    background-color: transparent;
+    }
+
+#loginmessage{
+    margin-left: -21%;
+    width:142%;
+    height:200nvm;
+    margin-bottom: 18%;
+    font-size: 4px;
+}
+
+/* @media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
+
+/* ----------------------------------------------- */
+/* restaurantdashboard */
+/* userdashboard */
+
+#hdg{
+    color: rgb(224, 214, 123);
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 96px;
+}
+
+ul{
+list-style-type: none; 
+margin-left: 3px;
+
+}
+li{
+    display: inline-flex;
+    margin: 2px 0px 30px 1px
+}
+
+#addform{
+    background-color: #c43d3d;
+    border-radius: 50px;
+    margin-top: 20%;
+    margin-bottom: 1%;
+    margin-left: 33%;
+    margin-right: 25%;
+    padding: 5%;
+    width:35%;
+    height: 20%;    
+}
+
+#dashboard{
+    background-image: url(images/dashboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+
+#viewodr{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family: cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+}
+
+#logout{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family: cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+}
+
+#additm{
+    color:rgb(224, 214, 123);
+    font-weight:bolder ;
+    font-family: cursive;
+}
+
+#itemform{
+    margin-top: 60px;
+}
+
+#heading{
+    color: rgb(224, 214, 123);
+    font-family: cursive;
+}
+
+#itembtn{
+    background-color: rgb(224, 214, 123);
+    color: #c43d3d;
+    font-family: cursive;
+    font-weight: bolder;
+    border-color: #c43d3d;
+}
+
+#additmmsg{
+    font-size: 24px;
+}
